@@ -22,16 +22,30 @@ Functions are really important in coding, because they can really simplify your 
 
 
 ## LCD Backpack
-This assignment, I learned how to use a LCD backpack. I used an LCD screen, a LCD backpack, a button, and an Arduino. When the button was pressed the counter shown by the LCD screen would go up by 1. LCD backpacks reduce the amount of digital pins needed. This is very important if there are many components of your circuit that need to wired and you need many digital pins. A problem I had with this assignment was that the number shown on the LCD screen was for microseconds passed, not the number of clicks. Instead of just saying buttonState == HIGH, one of the requirements for the if statement has to be "previousbuttonState == LOW". You need two variables. Another big problem I had was that my button wasn't pushed in all the way; this problem cost me a couple days. If there's a problem and you're not sure what it is, it's a good idea to check your wiring.
+This assignment, I learned how to use a LCD backpack. I used an LCD screen, a LCD backpack, a button, and an Arduino. When the button was pressed the counter shown by the LCD screen would go up by 1. LCD backpacks reduce the amount of digital pins needed. This is very important if there are many components of your circuit that need to wired and you need many digital pins. A problem I had with this assignment was that the number shown on the LCD screen was for microseconds passed, not the number of clicks. Instead of just saying buttonState == HIGH, one of the requirements for the if statement has to be "previousbuttonState == LOW". You need two variables. If there's a problem and you're not sure what it is, it's a good idea to check your wiring.
+
+
+### construction
 ![wiring diagram](http://wiki.chssigma.com/images/5/5d/Capswitch%601.PNG)
 Credit: Paul B. [CHS Sigma Wiki](http://wiki.chssigma.com/index.php?title=Paul%27s_Engineering_2_Notebook#Wiring_and_Pictures)
 
+### Reflection 
+If there's a problem and you're not sure what it is, it's a good idea to check your wiring.
+
+
 ## Hello LCD
-This assignment I learned how to use and LCD screen. I used an LCD screen and an Arduino. The goal was to get the LCD screen to print "Hello". I had a lot of very easily solvable problems with this assignment. The hardest part about this assignment was the wiring. Be very careful when wiring, because that can make a relatively simple assignment difficult. I also used wires in the beginning, instead of an LCD screen with male leads. Cutting all the wires evenly was a Sisyphean task and ended up being useless.
+This assignment I learned how to use and LCD screen. I used an LCD screen and an Arduino. The goal was to get the LCD screen to print "Hello". The hardest part about this assignment was the wiring. I used wires in the beginning, instead of an LCD screen with male ends. Cutting all the wires was a waste of time and ended up being useless.
+
+### construction
 ![wiring diagram](http://wiki.chssigma.com/images/e/e0/Lcdcap1.PNG)
 Credit: Paul B. [CHS Sigma Wiki](http://wiki.chssigma.com/index.php?title=Paul%27s_Engineering_2_Notebook#Wiring_and_Pictures)
 
+### Reflection 
+Be very careful with the wiring, because that can make a simple assignment difficult.
+
 ## LED Blink Revisited
-This assignment was a refresher on how to blink an LED using an Arduino, and also forced us to use analog pins instead of digital pins to get the LED to fade. Not only did we have to make the LED fade, but the serial monitor had to display a certain number of xs, corresponding to the brightness of the LED.
+This assignment was how to blink an LED using an Arduino, and also made us to use analog pins instead of digital pins to get the LED to fade. Not only did we have to make the LED fade, but the serial monitor had to display a certain number of xs, which was based on the brightness of the LED.
+
+### construction
 ![wiring diagram](http://wiki.chssigma.com/images/e/e8/Fritzing_LED_fade.PNG)
 Credit: Imogen A. [CHS Sigma Wiki](http://wiki.chssigma.com/index.php?title=Imogen%27s_Engineering_2_Notebook#Wiring_.26_Pictures)
