@@ -22,7 +22,7 @@ Functions are really important in coding, because they can really simplify your 
 
 
 ## LCD Backpack
-This assignment, I learned how to use a LCD backpack. I used an LCD screen, a LCD backpack, a button, and an Arduino. When the button was pressed the counter shown by the LCD screen would go up by 1. LCD backpacks reduce the amount of digital pins needed. This is very important if there are many components of your circuit that need to wired and you need many digital pins. A problem I had with this assignment was that the number shown on the LCD screen was for microseconds passed, not the number of clicks. Instead of just saying buttonState == HIGH, one of the requirements for the if statement has to be "previousbuttonState == LOW". You need two variables. If there's a problem and you're not sure what it is, it's a good idea to check your wiring.
+This assignment, I learned how to use a LCD backpack. I used an LCD screen, a LCD backpack, a button, and an Arduino. When the button was pressed, the counter shown by the LCD screen would go up by 1. LCD backpacks reduced the amount of digital pins needed. This is very helpfull if there are many components of your circuit that need to wired and you need digital pins.
 
 
 ### construction
