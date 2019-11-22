@@ -1,9 +1,14 @@
 # NotSoBasicArduino
 
 ## New Ping
-This assignment I learned how to use new ping. I used a continous servo and an ultrasonic sensor with an Arduino. For my code, the servo would move at a continous pace until it reached a certain point (50cm), at which it would stop moving. New ping gets rid of the need for functions. The CHS Sigma Wiki was extremely helpful during this assignment.
+This assignment I learned how to use new ping. I used a continous servo and an ultrasonic sensor with an Arduino. For my code, the servo would move at a continous pace until it reached a certain point (50cm), at which it would stop moving. New ping gets rid of the need for functions. 
+
+### construction
 ![wiring diagram](http://wiki.chssigma.com/images/5/50/Ultrasonic_Sensor_with_Servo.PNG)
 Credit: Imogen A. [CHS Sigma Wiki](http://wiki.chssigma.com/index.php?title=Imogen%27s_Engineering_2_Notebook#Wiring_.26_Pictures)
+
+### Reflection
+The CHS Sigma Wiki was extremely helpful during this assignment.
 
 ## Hello Function
 This assignment, I learned how to use a function. I used a continous servo and an ultrasonic sensor with an Arduino The servo would move a certain speed based on the distance of an object towards the sensor. The functions were called getDistance and microsecondsIntoCentimeters. getDistance figured out how far away an object was from the ultrasonic sensor. microsecondsIntoCentimeters converted the time it took for a wave to return to the ultrasonic sensor (in microseconds) to distance (in centimeters).
